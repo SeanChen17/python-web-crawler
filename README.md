@@ -8,6 +8,10 @@ The tool recives 3 additional parameters + the url of the vendor web site.
 The params are the ouput dir for the downloaded files, the port and ip of the mongodb service.
 At the end, a log.txt file is created for firmware files that dont have a downloading url.
 
+Requirement Modules:
+1. requests
+2. bs4 (BeautifulSoup)
+
 Invoke the tool with the following command:
 python3 main.py odir=<path_to_your_output_dir> dbip=<ip_of_mongo_service> dbport=<port_of_mongo_service> website_url
 
