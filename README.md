@@ -11,6 +11,9 @@ At the end, a log.txt file is created for firmware files that dont have a downlo
 Invoke the tool with the following command:
 python3 main.py odir=<path_to_your_output_dir> dbip=<ip_of_mongo_service> dbport=<port_of_mongo_service> website_url
 
+Example:
+python3 main.py odir=./file/ dbip=127.0.0.1 dbport=27017 https://www.rockchipfirmware.com/
+
 Notes:
 1. Make sure mongodb service that can handle connections is up and running.
 2. When specifing the vendor website url and the oupout directory, make sure to end with a forward slash ("/"). 
