@@ -15,5 +15,6 @@ Example:
 python3 main.py odir=./file/ dbip=127.0.0.1 dbport=27017 https://www.rockchipfirmware.com/
 
 Notes:
-1. Make sure mongodb service that can handle connections is up and running.
-2. When specifing the vendor website url and the oupout directory, make sure to end with a forward slash ("/"). 
+  1. Make sure mongodb service that can handle connections is up and running.
+  2. The database name will be VendorDB, and the collection name will be MetaData.
+  3. When specifing the vendor website url and the oupout directory, make sure to end with a forward slash ("/"). 
